@@ -1,0 +1,3 @@
+@powershell -ExecutionPolicy RemoteSigned %*
+
+@pause

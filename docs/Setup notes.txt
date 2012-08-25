@@ -1,0 +1,11 @@
+$env:PROFILEPATH/Home is where it's at
+ is in the path
+
+Ensure PowerShell 2.0
+ - http://www.microsoft.com/en-us/download/details.aspx?id=9864
+chocolatey
+ - bin/Install-Chocolatey.ps1
+
+In path:
+ - $env:PROFILEPATH/Home/bin
+ - $env:PROFILEPATH/Home/Apps/Chocolatey/?
