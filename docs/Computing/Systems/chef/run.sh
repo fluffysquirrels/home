@@ -1,4 +1,4 @@
 #!/bin/bash
-VIRTUALBOX_SHARE=/media/sf_VirtualBox_share
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-chef-solo -j $VIRTUALBOX_SHARE/chef/config/node.json -c $VIRTUALBOX_SHARE/chef/config/config.rb
+chef-solo -j $SCRIPT_DIR/config/node.json -c $SCRIPT_DIR/config/config.rb
