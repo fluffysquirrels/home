@@ -3,6 +3,10 @@ $env:PROFILEPATH/Home is where it's at
 
 Ensure PowerShell 2.0
  - http://www.microsoft.com/en-us/download/details.aspx?id=9864
+Ensure .NET Framework v4
+ - http://www.microsoft.com/en-gb/download/confirmation.aspx?id=17113
+ - dotNetFx40_Client_setup.exe /passive /promptrestart
+ 
 chocolatey
  - bin/Install-Chocolatey.ps1
 
