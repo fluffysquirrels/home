@@ -1,3 +1,5 @@
+apt-get update
+
 Install packages:
  - git
  - chef
